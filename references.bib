@@ -1,37 +1,74 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
 
-%% Created for Yannick Schwarenthorer at 2017-05-23 21:07:31 +0200
+%% Created for Yannick Schwarenthorer at 2017-06-06 22:54:07 +0200
 
 
 %% Saved with string encoding Unicode (UTF-8)
 
-@inproceedings {zxcvbn,
-	author = {Daniel Lowe Wheeler},
-	title = {zxcvbn: Low-Budget Password Strength Estimation},
-	booktitle = {25th USENIX Security Symposium (USENIX Security 16)},
-	year = {2016},
-	isbn = {978-1-931971-32-4},
-	address = {Austin, TX},
-	pages = {157--173},
-	url = {https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/wheeler},
-	publisher = {USENIX Association},
+
+
+@article{differentapproaches,
+	Author = {Sebastian Gavra},
+	Date-Added = {2017-06-06 20:51:31 +0000},
+	Date-Modified = {2017-06-06 20:53:53 +0000},
+	Organization = {Ludwig-Maximilians Universit{\"a}t M{\"u}nchen},
+	Title = {Discussing different approaches of how to get users to create more secure passwords: password policies, password strength meters and graphical passwords},
+	Year = {2015},
+	Url= {https://www.medien.ifi.lmu.de/lehre/ss15/ps/papers/Gavra-SecurePasswords.pdf}
 }
 
+@inproceedings{zxcvbn,
+	Address = {Austin, TX},
+	Author = {Daniel Lowe Wheeler},
+	Booktitle = {25th USENIX Security Symposium (USENIX Security 16)},
+	Isbn = {978-1-931971-32-4},
+	Pages = {157--173},
+	Publisher = {USENIX Association},
+	Title = {zxcvbn: Low-Budget Password Strength Estimation},
+	Url = {https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/wheeler},
+	Year = {2016},
+	Bdsk-Url-1 = {https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/wheeler}}
+
 @inproceedings{upToEleven,
-     author = {Egelman, Serge and Sotirakopoulos, Andreas and Muslukhov, Ildar and Beznosov, Konstantin and Herley, Cormac},
-     title = {Does My Password Go Up to Eleven?: The Impact of Password Meters on Password Selection},
-     booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
-     series = {CHI '13},
-     year = {2013},
-     isbn = {978-1-4503-1899-0},
-     location = {Paris, France},
-     pages = {2379--2388},
-     numpages = {10},
-     url = {http://doi.acm.org/10.1145/2470654.2481329},
-     doi = {10.1145/2470654.2481329},
-     acmid = {2481329},
-     publisher = {ACM},
-     address = {New York, NY, USA},
-     keywords = {passwords, security, user study},
-}
+	Acmid = {2481329},
+	Address = {New York, NY, USA},
+	Author = {Egelman, Serge and Sotirakopoulos, Andreas and Muslukhov, Ildar and Beznosov, Konstantin and Herley, Cormac},
+	Booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+	Doi = {10.1145/2470654.2481329},
+	Isbn = {978-1-4503-1899-0},
+	Keywords = {passwords, security, user study},
+	Location = {Paris, France},
+	Numpages = {10},
+	Pages = {2379--2388},
+	Publisher = {ACM},
+	Series = {CHI '13},
+	Title = {Does My Password Go Up to Eleven?: The Impact of Password Meters on Password Selection},
+	Url = {http://doi.acm.org/10.1145/2470654.2481329},
+	Year = {2013},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/2470654.2481329},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1145/2470654.2481329}}
+
+@inproceedings{weakToStrong,
+	Abstract = {Millions of users are exposed to password-strength meters/checkers at highly popular web services that use user- chosen passwords for authentication. Recent studies have found evidence that some meters actually guide users to choose better passwords{--}which is a fairly rare-bit of good news in password research. However, these meters are mostly based on ad-hoc design. At least, as we found, most vendors do not provide any explanation of their design choices, sometimes making them appear to be a black box. We analyze password meters deployed in selected popular websites, by measuring the strength labels assigned to common passwords from several password dictionaries. From this empirical analysis with millions of passwords, we report prominent characteristics of meters as deployed at popular websites. We shed light on how the server-end of some meters functions, provide examples of highly inconsistent strength outcomes for the same password in different meters, along with examples of many weak passwords being labeled as strong or even very strong. These weaknesses and inconsistencies may confuse users in choosing a stronger password, and thus may weaken the purpose of these meters. On the other hand, we believe these findings may help improve existing meters, and possibly make them an effective tool in the long run.},
+	Author = {Xavier de Carn{\'e} de Carnavalet and Mohammad Mannan},
+	Booktitle = {Network and Distributed System Security (NDSS) Symposium 2014},
+	Journal = {Network and Distributed System Security Symposium (NDSS 2014)},
+	Month = {February},
+	Publisher = {Internet Society},
+	Title = {From Very Weak to Very Strong: Analyzing Password-Strength Meters},
+	Url = {http://spectrum.library.concordia.ca/978049/},
+	Year = {2014},
+	Bdsk-Url-1 = {http://spectrum.library.concordia.ca/978049/}}
+
+@inproceedings{measureUp,
+	Address = {Bellevue, WA},
+	Author = {Blase Ur and Patrick Gage Kelley and Saranga Komanduri and Joel Lee and Michael Maass and Michelle L. Mazurek and Timothy Passaro and Richard Shay and Timothy Vidas and Lujo Bauer and Nicolas Christin and Lorrie Faith Cranor},
+	Booktitle = {Presented as part of the 21st USENIX Security Symposium (USENIX Security 12)},
+	Isbn = {978-931971-95-9},
+	Pages = {65--80},
+	Publisher = {USENIX},
+	Title = {How Does Your Password Measure Up? The Effect of Strength Meters on Password Creation},
+	Url = {https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/ur},
+	Year = {2012},
+	Bdsk-Url-1 = {https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/ur}}
